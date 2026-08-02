@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>
+TravelMateAI | AI Travel Planner
+</title>
+
+
+<meta name="description" content="TravelMateAI - AI powered travel planner that creates destination guides, attractions, food suggestions, weather and itineraries.">
+
+
+<!-- FAVICON -->
+<link rel="icon" 
+href="{{ url_for('static', filename='favicon.ico') }}">
+
+
+
+<!-- CSS -->
+
+<link rel="stylesheet" 
+href="{{ url_for('static', filename='style.css') }}">
+
+
+
+<!-- GOOGLE FONTS -->
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+
+
+</head>
+
+
+
+
+
+<body>
+
+
+<!-- BACKGROUND EFFECT -->
+
+<div class="particles"></div>
+
+
+
+
+
+
+<!-- HEADER -->
+
+<header>
+
+
+<div class="logo">
+
+TravelMateAI
+
+</div>
+
+
+
+
+<div class="header-buttons">
+
+
+
+<button
+id="favBtn"
+type="button">
+
+❤️
+
+</button>
+
+
+
+
+
+<button
+id="themeToggle"
+type="button">
+
+🌙
+
+</button>
+
+
+
+</div>
+
+
+</header>
+
+
+
+
+
+
+
+
+
+<!-- HERO SECTION -->
+
+
+<section class="hero">
+
+
+
+<h1>
+
+Plan Your Next Adventure With AI ✨
+
+</h1>
+
+
+
+
+
+<p>
+
+Discover destinations, attractions, food, weather and personalised travel plans instantly.
+
+</p>
+
+
+
+
+
+
+
+<div class="search-box">
+
+
+<input
+
+id="city"
+
+type="text"
+
+placeholder="Search your destination..."
+
+autocomplete="off"
+
+
+>
+
+
+
+
+
+<button
+
+type="button"
+
+onclick="generateTrip()">
+
+
+Explore Destination ✨
+
+
+</button>
+
+
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- AI LOADER -->
+
+
+<div
+
+class="loader"
+
+id="loader">
+
+
+🤖 AI is designing your journey...
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- IMAGE ALBUM -->
+
+
+<section
+
+id="gallery"
+
+class="gallery">
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- RESULT CARD -->
+
+
+<section
+
+id="result"
+
+class="result">
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- WEATHER -->
+
+<section
+
+id="weather"
+
+class="weather">
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- FAVOURITES -->
+
+
+<section
+
+id="favourites"
+
+class="favourites">
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- MUSIC -->
+
+
+<audio
+
+id="bgMusic"
+
+loop
+
+preload="auto">
+
+
+<source
+
+src="{{ url_for('static', filename='music.mp3') }}"
+
+type="audio/mpeg">
+
+
+</audio>
+
+
+
+
+
+
+
+<button
+
+id="musicBtn"
+
+class="music-btn"
+
+type="button">
+
+
+🎵
+
+
+</button>
+
+
+
+
+
+
+
+
+
+<!-- JAVASCRIPT -->
+
+
+<script
+
+src="{{ url_for('static', filename='script.js') }}"
+
+defer>
+
+
+</script>
+
+
+
+</body>
+
+
+</html>
