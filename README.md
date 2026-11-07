@@ -71,8 +71,8 @@ http://127.0.0.1:5000
 * OpenWeather API
 * Unsplash API
 
-## Author
+## 
 
-**Arya Prasanth**
-
-GitHub: https://github.com/arya-prasanth
+leave a little hello 💌 <a href="https://github.com/YOUR-USERNAME">github</a> &nbsp;✧&nbsp;
+<a href="https://www.linkedin.com/in/arya-pl/">linkedin</a> &nbsp;✧&nbsp;
+<a href="https://www.instagram.com/a_ry.x/">instagram</a> &nbsp;✧&nbsp;
