@@ -73,6 +73,6 @@ http://127.0.0.1:5000
 
 ## 
 
-leave a little hello 💌 <a href="https://github.com/YOUR-USERNAME">github</a> &nbsp;✧&nbsp;
+leave a little hello &nbsp;✧&nbsp; <a href="https://github.com/YOUR-USERNAME">github</a> &nbsp;✧&nbsp;
 <a href="https://www.linkedin.com/in/arya-pl/">linkedin</a> &nbsp;✧&nbsp;
-<a href="https://www.instagram.com/a_ry.x/">instagram</a> &nbsp;✧&nbsp;
+<a href="https://www.instagram.com/a_ry.x/">instagram</a> 
